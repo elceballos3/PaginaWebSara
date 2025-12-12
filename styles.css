@@ -1,0 +1,72 @@
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+h1 {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+
+ h3 {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+.grupo3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color:aquamarine
+}
+
+.grupo1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color:aliceblue
+}
+.grupo2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color:chartreuse
+} 
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color:blue
+}
+
+.fotosara {
+  width: 280px;         /* tamaño perfecto para tu foto */
+  height: auto;         /* mantiene proporciones */
+  border-radius: 20px;  /* esquinas bonitas */
+  
+  float: right;         /* MÁGIA: la pone a la derecha */
+  margin-right: 40px;   /* separación del borde */
+  margin-top: 20px;     /* baja la foto para no pegarse al título */
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
